@@ -52,15 +52,15 @@ cd is601-module3-assignment
 
 Create and activate a virtual environment, then install dependencies:
 
+> [!NOTE]
+> The following commands are for **Windows PowerShell.** On macOS or Linux, the commands to activate the virtual environment may differ.
+
 ```bash
 python -m venv venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
-
-> [!NOTE]
-> The following commands are for **Windows PowerShell.** On macOS or Linux, the commands to activate the virtual environment may differ.
 
 ## Running the Calculator
 
